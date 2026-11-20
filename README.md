@@ -14,7 +14,7 @@ servers are health-checked daily.
 
 - **Endpoint:** `https://mcp.nspros.ca/mcp` (Streamable HTTP)
 - **Overview & pricing:** https://nspros.ca/mcp
-- **Status:** public pilot — free for everyone until **February 28, 2027**
+- **Status:** public pilot — paid plans bill on signup; the Free plan is the standard free tier
 
 ## Connect
 
@@ -49,7 +49,7 @@ servers are proxied, namespaced as `<server>__<tool>`, alongside the NS Pros
 Data API and the catalog tools. The proxied set grows as more upstream servers
 pass verification.
 
-Gateway keys are free during the launch period. Create an account at
+Gateway keys are free on the Free plan. Create an account at
 https://nspros.ca and email hello@nspros.ca to get one.
 
 ## Packs
@@ -91,8 +91,7 @@ markup, on any plan.
 | Pro | $24/mo | 10 hosting slots, health checks and outage alerts, team sharing |
 | Studio | from $49/mo | Embed the gateway in your own product; manage end-user connections |
 
-Launch promo: every plan is free until February 28, 2027 — no card needed.
-Paid plans start March 1, 2027.
+No launch promo and no trial: paid plans bill from the day you subscribe. The Free plan is the standard free tier — not a promotion.
 
 For comparison: Glama's gateway plans run $9 / $26 / $80 a month and Composio
 Pro is $29 a month, and per-call marketplaces charge for every call (APIbase:
