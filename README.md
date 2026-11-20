@@ -2,10 +2,15 @@
 
 **174,966 MCP servers. One endpoint.**
 
+**Every MCP server and public data source in the world — in one place, at
+the lowest price.**
+
 The NS Pros MCP Gateway fronts the public MCP registries behind a single managed
 endpoint. Instead of hunting through registries and wiring up servers one at a
 time, you connect your MCP client to one address, search the whole catalog from
-inside your client, and call tools through the same connection.
+inside your client, and call tools through the same connection. The gateway is
+hosted around the clock, the catalog is re-gathered daily, and connected
+servers are health-checked daily.
 
 - **Endpoint:** `https://mcp.nspros.ca/mcp` (Streamable HTTP)
 - **Overview & pricing:** https://nspros.ca/mcp
@@ -88,6 +93,11 @@ markup, on any plan.
 
 Launch promo: every plan is free until February 28, 2027 — no card needed.
 Paid plans start March 1, 2027.
+
+For comparison: Glama's gateway plans run $9 / $26 / $80 a month and Composio
+Pro is $29 a month, and per-call marketplaces charge for every call (APIbase:
+$0.0005–$29.99 per call). These tiers are set at or below comparable plans,
+and tool usage always runs on your own accounts with no per-call markup.
 
 ## About this repository
 
