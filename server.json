@@ -1,1 +1,26 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","description":"One endpoint for a 174,966-server MCP catalog in job packs. BYOK. Free plan included; paid plans bill on signup.","name":"io.github.ocean1547-ui/nspros-mcp-gateway","remotes":[{"headers":[{"description":"Gateway access key. Not needed for tools/list or the catalog tools (catalog_search, catalog_stats); required for proxied tool calls. Paid plans bill on signup; the Free plan is free.","isRequired":false,"isSecret":true,"name":"X-API-Key"}],"type":"streamable-http","url":"https://mcp.nspros.ca/mcp"}],"repository":{"source":"github","url":"https://github.com/ocean1547-ui/nspros-mcp-gateway"},"title":"NS Pros MCP Gateway","version":"1.0.0","websiteUrl":"https://nspros.ca/mcp"}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "One endpoint for a 174,966-server MCP catalog in job packs. BYOK. Paid plans bill on signup.",
+  "name": "io.github.ocean1547-ui/nspros-mcp-gateway",
+  "remotes": [
+    {
+      "headers": [
+        {
+          "description": "Gateway access key. Not needed for tools/list or the catalog tools (catalog_search, catalog_stats); required for proxied tool calls. Paid plans bill on signup; the Free plan is free.",
+          "isRequired": false,
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ],
+      "type": "streamable-http",
+      "url": "https://mcp.nspros.ca/mcp"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/ocean1547-ui/nspros-mcp-gateway"
+  },
+  "title": "NS Pros MCP Gateway",
+  "version": "1.0.1",
+  "websiteUrl": "https://nspros.ca/mcp"
+}
